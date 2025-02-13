@@ -146,7 +146,7 @@ if uploaded_file is not None:
 
         st.write("Most Common Negative Words:")
         st.write(pd.Series(negative_words.split()).value_counts().head(5))
-
+        
         # Download results
         st.write("Download Results:")
         csv = df.to_csv(index=False).encode('utf-8')
