@@ -12,14 +12,6 @@ Advanced sentiment analysis application with custom word labeling and machine le
 - PDF report generation
 - User authentication system
 
-## Installation
-```bash
-git clone https://github.com/yourusername/sentiment-analyzer-pro.git
-cd sentiment-analyzer-pro
-pip install -r requirements.txt
-python -m nltk.downloader punkt stopwords wordnet
-
-
 ## Create virtual environment (recommended)
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -38,3 +30,11 @@ streamlit run app.py
 3. Configure processing settings in the sidebar
 4. View interactive dashboards and visualizations
 5. Export results as CSV or PDF
+
+
+## Installation
+```bash
+git clone https://github.com/yourusername/sentiment-analyzer-pro.git
+cd sentiment-analyzer-pro
+pip install -r requirements.txt
+python -m nltk.downloader punkt stopwords wordnet
