@@ -38,5 +38,3 @@ git clone https://github.com/yourusername/sentiment-analyzer-pro.git
 cd sentiment-analyzer-pro
 pip install -r requirements.txt
 python -m nltk.downloader punkt stopwords wordnet
-
-testing
